@@ -1,8 +1,11 @@
 {
-  "name": "reveal.js-mermaid-plugin",
+  "name": "@baldir-fr/reveal.js-mermaid-plugin",
   "version": "0.0.3",
-  "description": "A mermaid plugin for reveal.js.",
-  "homepage": "https://zjffun.github.io/reveal.js-mermaid-plugin",
+  "homepage": "https://github.com/baldir-fr/reveal.js-mermaid-plugin",
+  "description": "Fork of zjffun's mermaid plugin for reveal.js. https://github.com/zjffun/reveal.js-mermaid-plugin",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "main": "plugin/mermaid/mermaid.js",
   "module": "plugin/mermaid/mermaid.esm.js",
   "license": "MIT",
@@ -13,12 +16,12 @@
     "build": "gulp build"
   },
   "author": {
-    "name": "JuFeng Zhang",
-    "email": "zjffun@gmail.com"
+    "name": "Marc Bouvier",
+    "email": "m.bouvier.dev@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/zjffun/reveal.js-mermaid-plugin.git"
+    "url": "https://github.com/baldir-fr/reveal.js-mermaid-plugin"
   },
   "engines": {
     "node": ">=10.0.0"
