@@ -5,7 +5,7 @@ A Mermaid plugin for reveal.js.
 ## Install
 
 ```shell
-npm install https://github.com/baldir-fr/eveal.js-mermaid-plugin
+npm install https://github.com/baldir-fr/reveal.js-mermaid-plugin
 ```
 
 ## Usage
