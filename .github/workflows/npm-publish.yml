@@ -30,7 +30,6 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@baldir-fr'
       - run: yarn
-      - run: yarn build
       - name: Authenticate with GitHub package registry
         run: |
          echo "npmRegistryServer: \"https://npm.pkg.github.com\"" > ~/.yarnrc
