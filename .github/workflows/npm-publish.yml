@@ -36,6 +36,6 @@ jobs:
          echo "npmRegistryServer: \"https://npm.pkg.github.com\"" > ~/.yarnrc
          echo "npmAlwaysAuth: true" >> ~/.yarnrc
          echo "npmAuthToken: \"${{ secrets.GITHUB_TOKEN }}\"" >> ~/.yarnrc
-      - run: yarn publish --access public --new-version ${{GITHUB_REF_NAME}}
+      - run: yarn publish --access public --new-version ${{github.ref_name}}
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
