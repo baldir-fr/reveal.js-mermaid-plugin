@@ -2,6 +2,12 @@
 
 A Mermaid plugin for reveal.js.
 
+## Install
+
+```shell
+npm install https://github.com/baldir-fr/eveal.js-mermaid-plugin
+```
+
 ## Usage
 
 ```html
