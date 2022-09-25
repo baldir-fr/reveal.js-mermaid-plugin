@@ -32,11 +32,9 @@ jobs:
       - run: yarn
       - run: yarn build
       - name: Authenticate with GitHub package registry
-      - run: |
+        run: |
          echo "npmRegistryServer: \"https://npm.pkg.github.com\"" > ~/.yarnrc
-      - run: |
          echo "npmAlwaysAuth: true" >> ~/.yarnrc
-      - run: |
          echo "npmAuthToken: \"${{ secrets.GITHUB_TOKEN }}\"" >> ~/.yarnrc
       - run: yarn publish --access public --new-version ${{GITHUB_REF_NAME}}
         env:
