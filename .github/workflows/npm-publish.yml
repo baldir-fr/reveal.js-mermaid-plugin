@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: yarn ci
+      - run: yarn
       - run: yarn test
 
   publish-gpr:
@@ -28,7 +28,7 @@ jobs:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
           scope: '@baldir-fr'
-      - run: yarn ci
+      - run: yarn
       - name: Authenticate with GitHub package registry
         run:
           echo "//npm.pkg.github.com:_authToken=${{ secrets.GITHUB_TOKEN }}" >
