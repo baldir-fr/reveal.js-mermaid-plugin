@@ -1,4 +1,4 @@
-# [reveal.js-mermaid-plugin](https://zjffun.github.io/reveal.js-mermaid-plugin)
+# [reveal.js-mermaid-plugin](https://github.com/baldir-fr/reveal.js-mermaid-plugin)
 
 A Mermaid plugin for reveal.js.
 
@@ -45,7 +45,7 @@ npm install https://github.com/baldir-fr/reveal.js-mermaid-plugin
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/reveal.js-mermaid-plugin"></script>
+<script src="https://cdn.jsdelivr.net/gh/baldir-fr/reveal.js-mermaid-plugin@0.0.3/plugin/mermaid/mermaid.js"></script>
 <script>
   Reveal.initialize({
     controls: true,
